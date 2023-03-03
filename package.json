@@ -1,0 +1,17 @@
+{
+  "name": "css-my-site",
+  "version": "1.0.0",
+  "description": "My Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "My",
+    "site"
+  ],
+  "author": "IAN BETT",
+  "license": "ISC"
+}
