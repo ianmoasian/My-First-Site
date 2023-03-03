@@ -1,17 +1,24 @@
 {
   "name": "css-my-site",
   "version": "1.0.0",
-  "description": "My Site",
+  "description": "My First Site",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "keywords": [
-    "My",
-    "site"
-  ],
-  "author": "IAN BETT",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmoasian/My-First-Site.git"
+  },
+  "author": "Ian Bett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianmoasian/My-First-Site/issues"
+  },
+  "homepage": "https://github.com/ianmoasian/My-First-Site#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
